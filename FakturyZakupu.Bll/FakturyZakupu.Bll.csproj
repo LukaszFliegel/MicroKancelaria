@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FakturyZakupu.Bll.Interfaces\FakturyZakupu.Bll.Interfaces.csproj" />
+    <ProjectReference Include="..\FakturyZakupu.Dal.Interfaces\FakturyZakupu.Dal.Interfaces.csproj" />
+    <ProjectReference Include="..\FakturyZakupu.Domain\FakturyZakupu.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
