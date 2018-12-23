@@ -22,10 +22,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Base\Base.Api\Base.Api.csproj" />
-    <ProjectReference Include="..\FakturyZakupu.Bll.Interfaces\FakturyZakupu.Bll.Interfaces.csproj" />
     <ProjectReference Include="..\FakturyZakupu.Bll\FakturyZakupu.Bll.csproj" />
     <ProjectReference Include="..\FakturyZakupu.Contracts\FakturyZakupu.Contracts.csproj" />
-    <ProjectReference Include="..\FakturyZakupu.Dal.Interfaces\FakturyZakupu.Dal.Interfaces.csproj" />
     <ProjectReference Include="..\FakturyZakupu.Dal\FakturyZakupu.Dal.csproj" />
   </ItemGroup>
 

@@ -13,8 +13,8 @@ namespace FakturyZakupu.Api.DiProfiles
         {
             base.Load(builder);
             builder.RegisterAssemblyTypes(typeof(IFakturyZakupuApiAsembly).GetTypeInfo().Assembly);
-            builder.RegisterAssemblyTypes(typeof(IFakturyZakupuBllInterfacesAssembly).GetTypeInfo().Assembly);
-            builder.RegisterAssemblyTypes(typeof(IFakturyZakupuDalInterfacesAssembly).GetTypeInfo().Assembly);
+            //builder.RegisterAssemblyTypes(typeof(IFakturyZakupuBllInterfacesAssembly).GetTypeInfo().Assembly);
+            //builder.RegisterAssemblyTypes(typeof(IFakturyZakupuDalInterfacesAssembly).GetTypeInfo().Assembly);
             builder.RegisterAssemblyTypes(typeof(IFakturyZakupuBllAssembly).GetTypeInfo().Assembly).AsImplementedInterfaces();
             builder.RegisterAssemblyTypes(typeof(IFakturyZakupuDalAssembly).GetTypeInfo().Assembly).AsImplementedInterfaces();
 
